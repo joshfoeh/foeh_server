@@ -1,0 +1,28 @@
+{
+  "name": "foeh_server",
+  "version": "1.0.0",
+  "description": "AWS backend testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    // "build": "npm run-script tsc",
+    "build": "tsc index.ts",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/node": "10.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshfoeh/foeh_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshfoeh/foeh_server/issues"
+  },
+  "homepage": "https://github.com/joshfoeh/foeh_server#readme"
+}
