@@ -4,14 +4,11 @@
   "description": "AWS backend testing",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    // "build": "npm run-script tsc",
-    "build": "tsc index.ts",
-    "tsc": "tsc"
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "rmmod": "rimraf node_modules"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "10.5.1"
   },
