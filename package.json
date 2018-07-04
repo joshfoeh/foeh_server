@@ -8,9 +8,12 @@
     "build": "tsc",
     "rmmod": "rimraf node_modules"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "4.16.3"
+  },
   "devDependencies": {
-    "@types/node": "10.5.1"
+    "@types/node": "10.5.1",
+    "@types/express": "4.16.0"
   },
   "repository": {
     "type": "git",
